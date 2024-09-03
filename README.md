@@ -9,5 +9,5 @@ A funcionalidade principal do aplicativo é permitir que o usuário crie e delet
 - JS
 - localStorage
 
-##Autor
+## Autor
 Bruno Fitti
