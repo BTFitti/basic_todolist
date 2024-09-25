@@ -5,9 +5,6 @@ let buttonElement = document.querySelector("#app button");
 
 let tarefas = JSON.parse(localStorage.getItem("@listaTarefas")) || [];
 
-
-
-
 function listarTarefas(){
     listElement.innerHTML="";
     tarefas.map((itens)=>{
