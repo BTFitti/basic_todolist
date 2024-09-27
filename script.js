@@ -53,3 +53,10 @@ function excluirTarefa(position){
 function salvarTarefas(){
     localStorage.setItem("@listaTarefas",JSON.stringify(tarefas));
 }
+
+document.addEventListener("keypress", function(e){
+    if(e.key === "Enter"){
+        const btn = document.querySelector("#submit");
+        btn.click();
+    }
+});
